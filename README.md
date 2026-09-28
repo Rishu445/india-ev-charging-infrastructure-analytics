@@ -1,6 +1,10 @@
-# India EV Charging Infrastructure Analytics
+# India EV Charging Infrastructure Analytics — Generative AI-Assisted
 
 An end-to-end **business analytics project** designed to understand the distribution and concentration of EV charging infrastructure across India using **Python, MySQL, and an interactive HTML dashboard**.
+
+
+> **Generative AI-Assisted Project:** Generative AI was used as a development and analytical assistant for data-validation logic, SQL development/debugging, dashboard implementation, documentation, and iterative problem solving. Final datasets, SQL outputs, and business findings were validated against the underlying data.
+
 
 ## Business Problem
 
@@ -77,6 +81,43 @@ Market-expansion questions
 Decision-support dashboard
 ```
 
+## How Generative AI Was Used
+
+Generative AI was integrated into the project as a **co-pilot for analytics development**, while the underlying data and final analytical decisions remained data-driven and were validated independently.
+
+### AI-assisted activities
+
+- **Problem framing:** helped structure the EV infrastructure business problem and convert it into measurable analytical questions.
+- **Data preparation:** assisted in developing and refining Python cleaning and validation logic for inconsistent state-city records, duplicates, and coordinate checks.
+- **SQL analysis:** assisted with generating, debugging, and improving MySQL queries, including aggregations, CTEs, `HAVING`, `COUNT(DISTINCT)`, and window functions.
+- **Dashboard development:** assisted with the HTML/CSS/JavaScript implementation of interactive KPIs, charts, filters, mapping, search, pagination, and CSV export.
+- **Documentation:** assisted with the project report, README, business interpretation, and portfolio presentation.
+- **Quality validation:** final outputs were checked against the underlying dataset rather than accepted solely from AI-generated output.
+
+### AI workflow
+
+```text
+Business problem
+      ↓
+Generative AI-assisted planning
+      ↓
+Python data preparation
+      ↓
+Manual / data-based validation
+      ↓
+MySQL analysis
+      ↓
+AI-assisted query development & debugging
+      ↓
+Validated analytical findings
+      ↓
+AI-assisted dashboard implementation
+      ↓
+Final portfolio deliverables
+```
+
+The project should therefore be described as **Generative AI-assisted analytics**, not as an AI/ML prediction model.
+
 ## Supporting Data Preparation & Cleaning
 
 ```text
@@ -129,6 +170,7 @@ Final consistent master dataset
 | Database analysis | MySQL 8.0+ |
 | Visualization | Plotly |
 | Dashboard | HTML, CSS, JavaScript |
+| Generative AI | AI-assisted development, debugging, analytical structuring, documentation |
 | Documentation | Microsoft Word, Markdown |
 | Version control | Git / GitHub |
 
@@ -240,8 +282,8 @@ India
 | File | Purpose |
 |---|---|
 | `final_ev_data_cleaning.py` | Reproducible Python cleaning pipeline |
-| `ev_charging_stations_india_final_data.csv` | Final master dataset |
-| `ev_charging_state_city_corrections_final_data.csv` | Geographic correction audit |
+| `ev_charging_stations_india_final_consistent.csv` | Final master dataset |
+| `ev_charging_state_city_corrections_final.csv` | Geographic correction audit |
 | `final_ev_charging_mysql_analysis.sql` | MySQL table setup and analysis queries |
 | `EV_Charging_Final_SQL_Analysis_Report.docx` | Professional SQL analysis report |
 | `EV_Charging_Final_Interactive_Dashboard.html` | Interactive dashboard |
