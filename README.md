@@ -240,8 +240,8 @@ India
 | File | Purpose |
 |---|---|
 | `final_ev_data_cleaning.py` | Reproducible Python cleaning pipeline |
-| `ev_charging_stations_india_final_consistent.csv` | Final master dataset |
-| `ev_charging_state_city_corrections_final.csv` | Geographic correction audit |
+| `ev_charging_stations_india_final_data.csv` | Final master dataset |
+| `ev_charging_state_city_corrections_final_data.csv` | Geographic correction audit |
 | `final_ev_charging_mysql_analysis.sql` | MySQL table setup and analysis queries |
 | `EV_Charging_Final_SQL_Analysis_Report.docx` | Professional SQL analysis report |
 | `EV_Charging_Final_Interactive_Dashboard.html` | Interactive dashboard |
