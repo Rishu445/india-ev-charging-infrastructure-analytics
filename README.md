@@ -1,4 +1,4 @@
-# India EV Charging Infrastructure Analytics — Generative AI-Assisted
+# India EV Charging Infrastructure Analytics - Generative AI-Assisted
 
 An end-to-end **business analytics project** designed to understand the distribution and concentration of EV charging infrastructure across India using **Python, MySQL, and an interactive HTML dashboard**.
 
